@@ -1,7 +1,7 @@
 # Business Optima Assignment
 
 ### Overview 
-- From all the given task option i have chosen the Option 1 : Smart Text Classifier
+- From all the given task options, I have chosen the Option 1 : Smart Text Classifier
 - This assignment categorizes customer support message into predifined business-related categories
 
 ### Dataset
