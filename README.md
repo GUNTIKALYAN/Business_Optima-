@@ -7,8 +7,10 @@
 ### Dataset
 
 ``` https://www.kaggle.com/datasets/scodepy/customer-support-intent-dataset/data ```
-- This is the dataset i have taken subset of 5 categories and implemented
+- This is the dataset i have taken a subset of 5 categories from the target column and implemented
 - Categories : 'change_order', 'change_shipping_address', 'check_refund_policy', 'contact_human_agent', 'delivery_period'
+- Only relevant columns required for intent prediction were retained.
+- The columns are renamed as "utterance": "text", "intent": "label"
 
 ### Approach :
 
