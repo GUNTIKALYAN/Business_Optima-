@@ -20,7 +20,7 @@ The solution demonstrate an end-to-end NLP pipeline including:
 
 ### Evaluation Metrics :
 
-The following metrics were used to evaluate model performance
+The following metrics were used to evaluate model performance in ``` Model.ipynb```
 - Accuracy
 - Precision
 - Recall
