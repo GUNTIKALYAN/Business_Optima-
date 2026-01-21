@@ -8,3 +8,8 @@ venv/
 .DS_Store
 
 .ipynb_checkpoints/
+
+pretrained/results/
+
+pretrained/intent_classifier_distilbert/*
+!pretrained/intent_classifier_distilbert/label_mapping.json
