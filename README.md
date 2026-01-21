@@ -3,16 +3,26 @@
 ### Overview 
 - From all the given task options, I have chosen the Option 1 : Smart Text Classifier
 - This assignment categorizes customer support message into predifined business-related categories using two approaches:
-- Traditional ML
-- Using Pretrained Model (DistilBERT)
+- **Traditional ML**
+- **Using Pretrained Model (DistilBERT)**
 
 ### Dataset
 
 ``` https://www.kaggle.com/datasets/scodepy/customer-support-intent-dataset/data ```
-- This is the dataset i have taken a subset of 5 categories from the target column and implemented
-- Categories : 'change_order', 'change_shipping_address', 'check_refund_policy', 'contact_human_agent', 'delivery_period'
+
+**Dataset preparation:**
+- A subset of **5 intent categories** was selected from the target column.
 - Only relevant columns required for intent prediction were retained.
-- The columns are renamed as "utterance": "text", "intent": "label"
+- Columns were renamed for consistency:
+  - `utterance → text`
+  - `intent → label`
+ 
+**Selected intent classes:**
+- `change_order`
+- `change_shipping_address`
+- `check_refund_policy`
+- `contact_human_agent`
+- `delivery_period`
 
 ### Approach :
 
