@@ -73,6 +73,6 @@ Framework
 - TF-IDF is a lexical model and does not capture the semantic meaning
 
 ### Future Improvements
-- Use contextual embeddings (ex: sentence-transfromers)
+- Need to use contextual embeddings (ex: sentence-transfromers)
 - Expand dataset with real-world customer quries
   
